@@ -1,6 +1,6 @@
 {
-    "name": "𝙎𝙤𝙐𝙍𝙘𝙀 𝙎𝙋𝙞𝙙𝙀𝙍 𝄞",
-    "description": "اللهم صلي علي سيدنا محمد 🌺",
+    "name": "𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗔𝗟𝗜𝗣𝗛 ༼༽",
+    "description": "اللهم صل على محمد وآل محمد 🤍",
     "logo": "https://telegra.ph/file/ba5e50feaff3c2bbde984.jpg",
     "keywords": [
     "python3",
@@ -12,13 +12,13 @@
     ],
     "env": {
       "API_ID": {
-        "description": " ضـع ايبي ايدي احصل علية من هنا https://my.telegram.org",
-        "value": "",
+        "description": " ضـع ايبي ايدي جيبه منا https://my.telegram.org",
+        "value": "23710622",
         "required": true
       },
       "API_HASH": {
-        "description": " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
-        "value": "",
+        "description": " ضـع ايبي هاش جيبه منا https://my.telegram.org",
+        "value": "9a2cfbe6e34fc55cabc527ec27d56302",
         "required": true
       },
       "BOT_TOKEN": {
@@ -32,7 +32,7 @@
         "required": true
       },
       "SESSION": {
-        "description": "ضـع جلسة البايروجرام احصل عليها من هنا @UU2xbot",
+        "description": "ضـع جلسة البايروجرام ",
         "value": "",
         "required": true
       },
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/EE_47",
+        "value": "https://t.me/so_rs_lk",
         "required": false
       }
     },
