@@ -37,12 +37,12 @@ async def pause_str(_, message: Message):
 
     if not await is_streaming(message.chat.id):
         return await message.reply_text(
-            "⎊ اكتب كمل او /resume عشان يكمل الاغنيه"
+            " اكتب كمل او /resume ليتم اكمال الاغنيه"
         )
 
     await pytgcalls.pause_stream(message.chat.id)
     await stream_off(message.chat.id)
     return await message.reply_text(
-        text=f"⎊ تم ايقاف التشغيل مؤقتاً 🥺\n \n⎊ بواسطة : {message.from_user.mention} ♥",
+        text=f"\n⋆⋆︙تم ايقاف التشغيل مؤقتا ✅ \n ⋆︙بواسطة ☻ {message.from_user.mention} ",
         reply_markup=close_key,
     )
